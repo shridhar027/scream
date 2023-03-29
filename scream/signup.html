@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="signup/signup.css">
+    <link rel="icon" href="scream2.png">
+    <title>SCREAM |signup</title>
+    
+</head>
+<body>
+    <div class="upper">
+        <div class="logo">
+            <a href="index.html">
+                <img src="scream1.png" class="img-logo"/>
+            </a>
+        </div>
+        <div >
+            
+             <div  class="login-div" id="content_container">
+            <div  class="login" id="form_container">
+                <div id="form_header_container">
+                    <h2 id="form_header"> Sign Up </h2>
+                </div>
+                        
+                        <div class="input-text" id="form_content_container">
+                            <div id="form_content_inner_container">
+                                <input  class="input-text" type="text" id="full_name" placeholder="Full name">
+
+                                <input  class="input-text" type="email" id="email" placeholder="Email">
+                                
+                                <input  class="input-text" type="password" id="password" placeholder="New Password">
+                       
+
+                            <button class="signin-button" onclick="register()">SignUp</button>
+                        </div>
+                </div>
+                        <div class="remember-flex">
+                            <div>
+                                <input type="checkbox">
+                                <label class="color_text">Remember me</label>
+                            </div>
+                            <div class="help">
+                                <a class="color_text" href="">Need help?</a>
+                            </div>
+                        </div>
+                        <div class="login-face">
+                            <img src="https://www.freepnglogos.com/uploads/download-instagram-png-logo-20.png" height="20"/><a href="#" class="color_link log_face">instagram</a>
+                        </div>
+                        <div class="new-members">
+                           Already have an account <a href="signin.html" class="signup-link">Sign In now</a>.
+                        </div>
+                        <div class="protection color_link help">
+                            This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-width">
+                    Questions? Call <a href="tel:1-844-542-4813" class="tel-link">1-844-542-4813</a>
+                    <div>
+                        <ul class="bottom-flex">
+                            <li class="list-bottom">
+                                <a href="#" class="link-bottom">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li class="list-bottom">
+                                <a href="#" class="link-bottom">
+                                    Help Center
+                                </a>
+                            </li>
+                            <li class="list-bottom">
+                                <a href="#" class="link-bottom">
+                                    Terms of Use
+                                </a>
+                            </li>
+                            <li class="list-bottom">
+                                <a href="#" class="link-bottom">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li class="list-bottom">
+                                <a href="#" class="link-bottom">
+                                    Cookie Preferences
+                                </a>
+                            </li>
+                            <li class="list-bottom">
+                                <a href="#" class="link-bottom">
+                                    Corporate information
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <select class="fa select-language">
+                            <option> &#xf0ac; &nbsp;&nbsp;&nbsp;English</option>
+                            <option> &#xf0ac; &nbsp;&nbsp;&nbsp;Fran&ccedil;ais</option>
+                        </select>
+                    </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <!-- Our script must be loaded after firebase references -->
+    <script src="signup/signup1.js"></script>
+
+</html>
